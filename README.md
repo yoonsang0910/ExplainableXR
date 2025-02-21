@@ -2,7 +2,7 @@
 
 > *Yoonsang Kim, Zainab Aamir, Mithilesh Singh, Saeed Boorboor, Klaus Mueller, Arie E. Kaufman.*<br>
 > *IEEE Transactions on Visualization and Computer Graphics (IEEE VR), 2025*<br>
-> [[Paper (preprint)](https://arxiv.org/pdf/2501.13778)], [[Video](https://youtu.be/kCRTP19A6TM)]
+> [[Paper (preprint)](https://arxiv.org/pdf/2501.13778)], [[Video](https://youtu.be/NLh4FkZr7uI)]
 
 _Explainable XR (EXR)_ is an end-to-end framework that captures, analyzes, and visualizes the multimodal behaviors of users in XR environments -- VR, AR, MR. 
 This repository contains the **(1)** Unity-based capturing module that follows the UAD (User Action Descriptor) format along with example XR apps, **(2)** data processing module written in Python, and our **(3)** web-based analytics interface. **Please adapt the provided UAD structure and data types to match your purpose.**
