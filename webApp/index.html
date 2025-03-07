@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXR Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="spatial-view">
+
+        <div id="user-toolbar-container">
+            <!-- User legend & object/context items will be dynamically inserted here -->
+        </div>
+        <div id="zoom-level-display">Zoom: 100%</div>
+    </div>
+
+    <div id="range-display"></div>
+    <div id="user-xr-snapshot"></div>
+
+    <div id="right-pane">
+        <div class="plot-box" id="plot-box1"></div>
+        <div class="plot-box" id="plot-box2"></div>
+        <div class="plot-box" id="plot-box3">
+            <div id="analysis-filter-container"></div>
+            <div id="insights-container"></div>
+        </div>
+    </div>
+    <div id="left-pane">
+        <div id="hier-toolbar" class="toolbar hier"></div>
+        <div id="speech-box"></div>
+        <div id="obj-toolbar" class="toolbar obj"></div>
+        <div id="toolbar" class="toolbar">
+            <div class="toggle">
+                <input type="radio" id="toggle-none" name="visualizationOption" checked>
+                <label for="toggle-none">None</label>
+            </div>
+            <div class="toggle">
+                <input type="radio" id="toggle-speech" name="visualizationOption">
+                <label for="toggle-speech">Speech</label>
+            </div>
+            <div class="toggle">
+                <input type="radio" id="toggle-xr-interaction" name="visualizationOption">
+                <label for="toggle-xr-interaction">XR Interaction</label>
+            </div>
+        </div>
+    <script>
+        function createListItem(name, isFolder = false, children = []) {
+        const listItem = document.createElement('li');
+        listItem.style.listStyle = 'none';
+        if (isFolder) {
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = name;
+            checkbox.checked = true ;
+            listItem.appendChild(checkbox);
+
+            const label = document.createElement('label');
+            label.setAttribute('for', name);
+            label.textContent = name;
+            listItem.appendChild(label);
+
+            const subList = document.createElement('ul');
+            children.forEach(child => {
+                subList.appendChild(createListItem(child.name, child.type === "folder", child.children || []));
+            });
+            listItem.appendChild(subList);
+            checkbox.addEventListener('change', function() {
+            const subCheckboxes = subList.querySelectorAll('input[type="checkbox"]');
+            subCheckboxes.forEach(subCheckbox => subCheckbox.checked = this.checked);
+            });
+        } else {
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = name;
+            checkbox.checked = true ;
+
+            const label = document.createElement('label');
+            label.setAttribute('for', name);
+            label.textContent = name;
+
+            listItem.appendChild(checkbox);
+            listItem.appendChild(label);
+        }
+        return listItem;
+    }
+
+    function generateToolbar(folderStructure) {
+        const toolbar = document.getElementById('obj-toolbar');
+        const list = document.createElement('ul');
+        Object.keys(folderStructure).forEach(key => {
+            const isFolder = Array.isArray(folderStructure[key]);
+            list.appendChild(createListItem(key, isFolder, folderStructure[key]));
+        });
+        toolbar.appendChild(list);
+        const mainOptions = document.querySelectorAll('.main-option');
+        mainOptions.forEach(mainOption => {
+            mainOption.addEventListener('change', function() {
+                const subOptions = this.parentElement.querySelector('.sub-options-list').querySelectorAll('input[type="checkbox"]');
+                subOptions.forEach(subOption => subOption.checked = this.checked);
+            });
+        });
+    }
+
+    </script>
+    </div>
+    <div id="temporal-view" style="position: relative;">
+        <div id="slider-container">
+            <div id="timeDisplay">00:00:00</div>
+
+        </div>
+        <div id="shared-axis-container">
+            <svg id="shared-axis"></svg>
+        </div>
+        <div id="controls-container">
+            <div id="bin-selection-container" class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Intervals
+                </button>
+                <select id="binsDropdown">
+                    <option value="0.5">0.5</option>
+                    <option value="1" >1</option>
+                    <option value="2" >2</option>
+                    <option value="5" selected>5</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                </select>
+                <div id="unit-selection-container" style="margin-left: 10px; display: inline-block;">
+                    <input type="radio" id="unit-minutes" name="unit" value="minutes" checked>
+                    <label for="unit-minutes">Minutes</label>
+                    <input type="radio" id="unit-seconds" name="unit" value="seconds">
+                    <label for="unit-seconds">Seconds</label>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div id="speech-plot-container">
+            <svg id="speech-plot"></svg>
+        </div>
+
+        <script>
+            async function updateSampleSizes() {
+                const adjustAndRoundSize = (size, unit) => {
+                    size = parseFloat(size.toFixed(2));
+                    return size;
+                };
+
+                try {
+                    const binsDropdown = document.getElementById('binsDropdown');
+                    const unit = document.querySelector('input[name="unit"]:checked').value;
+                    binsDropdown.innerHTML = ''; 
+                    if (unit === 'minutes') {
+                    const minuteValues = [1, 3, 5];
+                    minuteValues.forEach(min => {
+                    min = adjustAndRoundSize(min, unit);
+                    const option = new Option(`${min} min`, min);
+                    binsDropdown.add(option);
+                        });
+                    } else {
+                    const secondValues = [1, 10, 30];
+                    secondValues.forEach(sec => {
+                        sec = adjustAndRoundSize(sec, unit);
+                        const option = new Option(`${sec} sec`, sec);
+                        binsDropdown.add(option);
+                        });
+                    }
+                } catch (error) {
+                    console.error('Failed to update sample sizes:', error);
+                    }
+                }
+                document.querySelectorAll('input[name="unit"]').forEach(input => {
+                    input.addEventListener('change', updateSampleSizes);
+                    });
+
+            function myFunction() {
+                var dropdown = document.getElementById("binsDropdown");
+                if (dropdown.style.display === "block") {
+                    dropdown.style.display = "none";
+                } else {
+                    dropdown.style.display = "block";
+                }
+            }
+
+            function selectSize(size) {
+                var dropbtn = document.querySelector("#bin-selection-container .dropbtn");
+                dropbtn.textContent = "Sample Size - " + size;
+                myFunction();
+            }
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    for (var i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.style.display === "block") {
+                            openDropdown.style.display = "none";
+                        }
+                    }
+                }
+            }
+            document.addEventListener('DOMContentLoaded', updateSampleSizes);
+        </script>
+        <svg id= "indicator-svg" style="position: absolute; top: 25; left: 0; z-index: 1; " width="100%" height="100%">
+            <!-- pointer-events: none; -->
+            <line id="time-indicator-line1" x1="95" y1="33" x2="95" y2="100%"></line>
+            <circle id="time-indicator-circle1" cx="100" cy="28" r="8" fill="#9e9e9e"></circle>
+            <line id="time-indicator-line2" x1="100" y1="28" x2="100" y2="100%"></line>
+            <circle id="time-indicator-circle2" cx="112" cy="28" r="8" fill="#9e9e9e"></circle>
+        </svg>
+    </div>
+    <script type="module" src="src/script.js"></script>
+</body>
+</html>
+
+

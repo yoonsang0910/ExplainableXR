@@ -1,0 +1,535 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    /* background-color: #eaeaea; */
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+#indicator-svg {
+    /* border: 1px solid red; Temporary debugging border */
+    overflow:  visible;
+}
+
+#left-pane, #right-pane {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    /* background-color: #f9f9f9; */
+    z-index: 100;
+    /* overflow-y: auto; */
+    padding-bottom: 20px;
+    /* border: 2px solid #ccc; */
+}
+
+#left-pane {
+    left: 0;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+}
+.keyword-selected {
+    background-color: #e0e0e0; /* Light grey background */
+  }
+
+#right-pane {
+    right: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+#right-pane {
+    display: flex;
+    flex-direction: column; /* Stack the plot-boxes vertically */
+    height: 100%; /* Full height of the viewport */
+}
+
+#plot-box1 {
+    height: 20%; /* 20% of the height */
+}
+
+#plot-box2 {
+    height: 20%; /* 20% of the height */
+}
+
+#plot-box3 {
+    height: 60%; /* 60% of the height */
+}
+
+.plot-box {
+    width: 100%; /* Full width of the right pane */
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc; /* Optional: Add a border to visualize the boxes */
+}
+
+#spatial-view, #temporal-view {
+    width: 55%;
+    position: relative;
+    /* overflow-y: auto; */
+    left: 20%;
+    right: 25%;
+}
+
+
+
+#spatial-view {
+    height: 65%;
+    position: relative;
+}
+
+
+#range-display {
+    position: relative;
+    color: #4f4f4f;
+    bottom: 0;
+    left: 20%;
+    padding: 5px;
+    margin: 10px;
+    font-size: 0.9em;
+    z-index: 2;
+}
+
+
+
+#temporal-view {
+    /* height: 35%; */
+    overflow-x: auto;
+    overflow-y: auto;
+    display: block;
+    bottom: 0px;
+}
+
+.toolbar, #obj-toolbar, #toolbar, #bin-selection-container {
+    background-color: #f9f9f9;
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.2); */
+    position: absolute;
+    padding: 10px;
+    z-index: 101;
+}
+
+#obj-toolbar, #toolbar {
+    display: none;
+}
+
+#obj-toolbar ul, #obj-toolbar li, #toolbar .toggle, #user-toolbar input[type="checkbox"] {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#slider-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: none;
+}
+
+#slider-container input[type=range] {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+
+ #speech-plot-container {
+        /* overflow-x: scroll; */
+      padding: 10px;
+      top:0;
+}
+
+#shared-axis-container {
+    position: relative; /* If it's not already relative, make it relative */
+    top: 50px; /* Adjust the top value as needed to push it down */
+    max-width: 100%;
+}
+
+
+#controls-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0 10px;
+    z-index: 10;
+}
+
+#bin-selection-container, #time-extent-toggle {
+    position: relative;
+    margin-right: 10px; /* Space between controls */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+#bin-selection-container select {
+    appearance: none; /* Remove default styling */
+    background-color: transparent; /* Make it transparent to show the container's color */
+    border: none; /* No borders */
+    padding: 5px 8px; /* Same padding for visual consistency */
+    font-size: 1.01em; /* Large, readable text */
+    color: #333; /* A dark grey for text to make it readable */
+    cursor: pointer; /* Indicate it's a dropdown */
+}
+
+#bin-selection-container::after {
+    /* content: '▼'; Add a downward arrow */
+    color: #333; /* Same color as the dropdown text for consistency */
+    padding-right: 10px; /* Space before the arrow */
+    font-size: 0.9em;
+}
+
+
+#timeDisplay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    z-index: 2;
+}
+
+#shared-axis-container, #bin-selection-container label, #binsDropdown, #binsDropdown option {
+    min-height: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+/* #shared-axis-container {
+    margin-bottom: 0;
+} */
+
+#binsDropdown:focus, #binsDropdown option:hover, #binsDropdown option:checked {
+    outline: none;
+    background-color: #bdbdbd;
+}
+#hier-toolbar {
+    list-style: none;
+    flex-shrink: 0;
+    overflow-y: auto; /* Enables vertical scrolling within the toolbar */
+    max-height: 30%; /* Takes up 30% of the left pane's height */
+    width: 95%; /* Uses the full width of its container */
+    font-size: 1em;
+    /* border: 2px solid #ccc;  */
+    margin-top: 5px;
+    padding-left: 15px;
+    /* border-radius: 8px; */
+    /* border-bottom: 1px solid #fff;  */
+}
+
+#speech-box{
+    margin-top: 10px;
+    overflow-y: auto;
+    top: 0;
+    width:100%;
+    position: relative;
+    flex-grow: 1;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /* padding: 5px; */
+    background-color: #f9f9f9;
+}
+
+.speech-box {
+    position: relative; /* Ensure the user label is positioned relative to the speech box */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-label {
+    /* background-color: #8dd3c7; Blue background, adjust as needed */
+    color: white;
+    padding: 5px 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.speech-box h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.speech-box div {
+    font-size: 0.95em;
+    color: #555;
+    word-wrap: break-word; /* Ensures long words will break and wrap to the next line */
+    overflow-wrap: break-word; /* Similar to word-wrap, provides better control */
+}
+
+.time-range-display-speechbox {
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #444;
+}
+
+
+#hier-toolbar {
+    list-style: none;
+    flex-shrink: 0;
+    overflow-y: auto; /* Enables vertical scrolling within the toolbar */
+    max-height: 30%; /* Takes up 30% of the left pane's height */
+    width: 100%; /* Uses the full width of its container */
+}
+#hier-toolbar ul {
+    list-style-type: none;
+    font-size: 0.99em;
+}
+
+#indicator-svg {
+    pointer-events: none; /* Ignore mouse events; they "pass through" */
+    z-index: 2;
+}
+
+#indicator-svg .interactive {
+    pointer-events: auto; /* Enable mouse events for specific elements */
+}
+
+#indicator-svg .shading {
+    pointer-events: all;
+    cursor: move;
+    z-index: 20;
+}
+
+
+
+
+#user-xr-snapshot {
+    position: absolute;
+    bottom: 508px;
+    left: 1610px;
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 5px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    /* padding: 5px; */
+    z-index: 101;
+    display: none;
+}
+
+#plot-box3 {
+    height: 60%; /* Occupies 60% of the height of its parent container */
+    padding: 10px; /* Adds padding to avoid content touching the edges */
+    box-sizing: border-box; /* Ensures padding is included in the element's width and height */
+    display: flex;
+    flex-direction: column;
+}
+
+#analysis-filter-container {
+    margin-bottom: 15px; /* Adds some space between the filters and insights */
+    padding-left: 10px;
+    flex-shrink: 0; /* Prevents the filter container from shrinking */
+}
+
+#insights-container {
+    overflow-y: auto; /* Enables vertical scrolling for the insights */
+    flex-grow: 1; /* Allows insights container to take up remaining space */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adds space between the insight boxes */
+}
+
+.insight-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 99%; /* Makes the box narrower, occupying 80% of the container's width */
+    max-width: 680px; /* Sets a maximum width for the boxes */
+    margin: 0 auto; /* Centers the boxes horizontally */
+}
+
+.insight-topic {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+    border-bottom: 1px dashed #444;
+    margin: 0 auto;
+}
+.insight-key {
+    font-size: 0.9em;
+    /* color: #666; */
+    color:rgb(59, 58, 58);
+    margin-right: 10px;
+    padding: 3px 6px;
+    background-color: rgba(255, 152, 0, 0.7);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.insight-content {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.highlight-insight {
+    border-color: #76C7C0;
+    box-shadow: 0 0 10px rgba(118, 199, 192, 0.8);
+}
+
+/* Filter Tag Styling */
+#plot-box3 .filter-tag {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 4px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+#plot-box3 .filter-tag.active {
+    background-color: #CCCCCC; /* Cool Mint color */
+    color: black;
+    border-color: #CCCCCC;
+    border-radius: 10px;
+}
+
+#unit-minutes,
+#unit-seconds {
+    display: none; /* Hide the default radio buttons */
+}
+
+
+
+#unit-minutes:checked + label,
+#unit-seconds:checked + label {
+    background-color: #CCCCCC; /* Highlight color for selected option */
+    color: white; /* Text color for selected option */
+    font-size:1em;
+}
+.dropbtn {
+    border-radius: 3px;
+    padding: 5px 5px;
+    font-size: 1em;
+    border: 1px solid #999;
+}
+
+#user-toolbar-container {
+    width: 180px; /* Set your desired width */
+    /*height: 290px; /* Set your desired height */
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+    /*overflow-y: auto; /* Enable scrolling if content exceeds height */
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    background-color: rgba(255,255,255, 0.1);
+    position:absolute;
+    margin-top: 8px;
+    margin-left: 5px;
+    border-radius: 8px;
+  }
+
+  #user-toolbar-container:hover{
+    background-color: rgba(255,255,255, 0.4);
+  }
+
+  .user-checkbox {
+    cursor: pointer;
+    padding: 1px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+  }
+
+  .legend-square {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left:10px;
+    border-radius: 3px; /* Adjust the value to make the edges rounder */
+    display: inline-block;
+}
+
+  .nested-checkboxes {
+    margin-left: 28px;
+    padding-top: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+
+  .nested-checkboxes.show {
+    max-height: 100px; /* Adjust this to control the maximum expansion */
+  }
+
+  .checkbox-container {
+    margin-bottom: 1px;
+    position: relative;
+  }
+
+  /* Dotted line */
+  .horizontal-line {
+    border-top: 1px dotted #999;
+    margin-top: 10px;
+    transition: all 0.4s ease;
+    width: 100%;
+  }
+
+  /* Initially, place the line below the user checkbox */
+  .checkbox-container.collapsed .horizontal-line {
+    display: block;
+    margin-top: 10px;
+  }
+
+  /* On expand, move the line below the nested block */
+  .checkbox-container.expanded .horizontal-line {
+    margin-top: 10px;
+  }
+
+  #zoom-level-display {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+
+  .total-results-display {
+    font-family: Arial, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 10px;
+    width: 100%;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 6px;
+}

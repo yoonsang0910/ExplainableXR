@@ -1,0 +1,2070 @@
+[
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Freshly load and visualize data of the Heatmap of percentage of greenery(Clone)",
+        "StartTime":"240909_180102_808000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An empty wooden office desk with a red office chair partially visible beneath it. The desk has cable management grommets, and there are metal supports connecting the desk to a partition wall. Some shelves can be seen above the desk along with a whiteboard. The area is clear of any data displays or electronic devices typically used for loading and visualizing information such as a heatmap.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.01257714,0.167045,0.1149768,23.49365,11.94706,1.769457",
+                "ActionInvokeTimestamp":"240909_180102_808000",
+                "ActionReferentLocation":"0.04823542,-0.5561004,0.8713226,0,2.061096,0",
+                "ActionReferentName":"Heatmap of percentage of greenery(Clone)",
+                "ActionReferentBody":"user3\/240909_180056\/Object\/1.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180102_979000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.001710847,0.1387908,0.1341392,23.20533,10.40342,1.76069",
+                "ActionInvokeTimestamp":"240909_180102_979000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Freshly load and visualize data of the Heatmap of percentage of greenery(Clone)",
+        "StartTime":"240909_180106_797000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An empty light-colored wooden desk surface against a white wall with metal supports, featuring integrated cable grommets in the top corners.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.1593075,-0.2477136,0.4746003,31.61321,347.6684,357.9483",
+                "ActionInvokeTimestamp":"240909_180106_797000",
+                "ActionReferentLocation":"0.04823542,-0.5561004,0.8713226,0,2.061096,0",
+                "ActionReferentName":"Heatmap of percentage of greenery(Clone)",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/1.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180106_970000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.1569499,-0.2569635,0.4558808,31.0669,346.7194,357.7144",
+                "ActionInvokeTimestamp":"240909_180106_970000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180108_354000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.3469818,0.02360023,0.2058071,33.78734,22.13894,350.32",
+                "ActionInvokeTimestamp":"240909_180108_354000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Freshly load and visualize data of the Heatmap of percentage of greenery(Clone)",
+        "StartTime":"240909_180110_661000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"The image displays a section of a workspace featuring a corner desk made of light-colored wood. The desk has round, black cable grommets and is supported by sturdy gray posts. A chair with a red backrest is partially visible under the desk. There are no other items or visual data on the desk indicating an active data loading or visualization task.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.03124587,0.02462674,0.02147958,35.27409,82.4002,356.7591",
+                "ActionInvokeTimestamp":"240909_180110_661000",
+                "ActionReferentLocation":"0.04823542,-0.5561004,0.8713226,0,2.061096,0",
+                "ActionReferentName":"Heatmap of percentage of greenery(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/1.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180110_833000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.06722585,0.03985406,-0.04456745,35.44286,3.5591,356.4925",
+                "ActionInvokeTimestamp":"240909_180110_833000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180112_251000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.4374866,0.02625247,0.05017447,35.04877,334.9248,351.6618",
+                "ActionInvokeTimestamp":"240909_180112_251000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180117_321000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A corner section of a light wood office desk with metal support beams and desk grommets. The area appears tidy and minimalistic, with a red office chair partially visible beneath the desk. The setup is designed for efficient workspace organization.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5682104,0.1256163,0.199618,33.11948,328.616,359.4341",
+                "ActionInvokeTimestamp":"240909_180117_321000",
+                "ActionReferentLocation":"0.05364147,-0.4573933,1.02708,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_6",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/2.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Emphasizing the importance of considering trees and grain indices in planning.",
+        "StartTime":"240909_180119_268000",
+        "Duration":"000000_000004_900000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.5791615,0.1316859,-0.001747876,28.64993,31.9119,359.3928",
+                "ActionInvokeTimestamp":"240909_180119_268000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" So for our greenery infrastucture planning purposes, I think it is important to look at the trees and the grain reindices.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User3",
+        "Intent":"Asking for specific preferences or suggestions.",
+        "StartTime":"240909_180127_341000",
+        "Duration":"000000_000004_639999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.01423844,0.08614033,0.13648,37.64046,357.1707,353.8013",
+                "ActionInvokeTimestamp":"240909_180127_341000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Yeah sure, you're right. Do you have any particular area in mind, for tree planting?",
+                "ActionContext":"user3\/240909_180056\/Context\/2.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Observing the street.",
+        "StartTime":"240909_180134_827000",
+        "Duration":"000000_000003_080000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.4704063,0.1589881,0.3565219,28.81624,34.12431,0.2123881",
+                "ActionInvokeTimestamp":"240909_180134_827000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" So I am looking at this street, where the vegitation numbers are high",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180138_085000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.9426881,0.04002476,0.2715951,29.67902,320.3787,358.5582",
+                "ActionInvokeTimestamp":"240909_180138_085000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180141_488000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.4415684,-0.03269416,0.3423914,35.47907,318.4335,358.8318",
+                "ActionInvokeTimestamp":"240909_180141_488000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User3",
+        "Intent":"Requesting time to review data.",
+        "StartTime":"240909_180142_433000",
+        "Duration":"000000_000003_419999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.07864947,0.1069989,0.2285903,19.27128,357.6184,357.8599",
+                "ActionInvokeTimestamp":"240909_180142_433000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" So yeah, let me just look at the numbers, how much trees need to be planted for city planning",
+                "ActionContext":"user3\/240909_180056\/Context\/4.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180143_519000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A section of a light wood desk surface with two circular cable management grommets partially visible on each side. The desk is backed by a light-colored wall. The grommet on the right has cables running through it, with one cable routed alongside a silver, cylindrical support leg.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.1809508,-0.1286069,0.5782178,39.32098,0.1758718,0.2260168",
+                "ActionInvokeTimestamp":"240909_180143_519000",
+                "ActionReferentLocation":"-0.1582812,-0.5065827,1.097236,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_10",
+                "ActionReferentBody":"user3\/240909_180056\/Object\/2.glb",
+                "ActionContext":"user3\/240909_180056\/Context\/3.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User3",
+        "Intent":"Expressing doubt about the effectiveness due to low numbers.",
+        "StartTime":"240909_180150_069000",
+        "Duration":"000000_000005_019999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.0863341,0.1156716,0.04304251,24.94422,0.1416245,359.2262",
+                "ActionInvokeTimestamp":"240909_180150_069000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Yeah, I can see that the numbers of vegitations over there are quite low, there must be a soil degradation or something. so I'm not sure spending more budget on that area would work",
+                "ActionContext":"user3\/240909_180056\/Context\/5.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Directing attention to specific locations.",
+        "StartTime":"240909_180202_205000",
+        "Duration":"000000_000003_680000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.3302458,0.09718965,0.4872705,39.2245,23.77372,359.2644",
+                "ActionInvokeTimestamp":"240909_180202_205000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Okay, that's interesting, I'll verify on the soil issue too. Let me look at the areas where you pointed out.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180204_302000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A detailed view of a clean, L-shaped wooden desk positioned in a cubicle with a whiteboard and light grey partition. The desk has two circular grommet holes for cable management, and the partition is supported by metal poles attached to the desk. The area appears organized and ready for use.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.368838,0.106009,0.3999882,35.45022,27.97472,353.0611",
+                "ActionInvokeTimestamp":"240909_180204_302000",
+                "ActionReferentLocation":"-0.01769855,-0.3942508,1.029709,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_5",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/2.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180208_036000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An office cubicle workstation with a wooden surface and a partition supported by metallic poles. There are two cable management grommets on the desk, one with a cable passing through, providing an organized workspace for electronics or other equipment.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2873599,0.08920322,0.4758019,38.33742,24.06452,356.7663",
+                "ActionInvokeTimestamp":"240909_180208_036000",
+                "ActionReferentLocation":"-0.01769855,-0.3942508,1.029709,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_5",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/2.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Observing a higher number of trees",
+        "StartTime":"240909_180209_274000",
+        "Duration":"000000_000004_980000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.689507,0.1292115,0.2047885,28.25936,48.45086,358.7673",
+                "ActionInvokeTimestamp":"240909_180209_274000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Now, I'm looking at this area, and I see a significantly higher number of trees",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User3",
+        "Intent":"Clarifying the location of the trees.",
+        "StartTime":"240909_180224_643000",
+        "Duration":"000000_000004_559999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.005313043,0.1149032,0.1742351,23.58404,359.6647,0.05245036",
+                "ActionInvokeTimestamp":"240909_180224_643000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Are you talking about the trees on the east of the central park?",
+                "ActionContext":"user3\/240909_180056\/Context\/8.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180224_801000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A close-up view of the lower part of a wooden desk, highlighting the desk's leg, which is a cylindrical, metallic structure fixed near the right side. Another desk leg is partially visible on the left side of the image. At the base of the right leg, there is a circular cable management grommet with a black cable passing through it. The background wall is plain with no decorations.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.04025149,0.02043735,0.4404756,36.13588,2.568357,1.05694",
+                "ActionInvokeTimestamp":"240909_180224_801000",
+                "ActionReferentLocation":"-0.01769855,-0.3942508,1.029709,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_5",
+                "ActionReferentBody":"user3\/240909_180056\/Object\/3.glb",
+                "ActionContext":"user3\/240909_180056\/Context\/7.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Suggesting to mark a specific point for reference.",
+        "StartTime":"240909_180239_459000",
+        "Duration":"000000_000002_740000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.5743002,0.1170967,0.3496144,27.08234,39.88177,0.6056203",
+                "ActionInvokeTimestamp":"240909_180239_459000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Yes exactly, the east of the park. Let's mark both the bad locations and the good locations for tree planting, with markers for future reference",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180240_443000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A corner desk with light wood surfaces features three cable grommet holes. There is a partition at the back with metal support beams and a set of upper shelves. Windows are partially visible, creating a well-lit workspace.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.6754877,0.1275455,0.107727,25.46762,330.3722,359.3377",
+                "ActionInvokeTimestamp":"240909_180240_443000",
+                "ActionReferentLocation":"0.1250323,0.00581038,1.024512,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/3.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180241_266000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light wooden desk with a metal frame supporting a shelf, with a whiteboard above it. There are cable grommets on the desk surface, and a red chair positioned next to the desk.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.5696467,0.0914553,0.406837,30.74022,41.24524,2.151503",
+                "ActionInvokeTimestamp":"240909_180241_266000",
+                "ActionReferentLocation":"-0.01769855,0.05574918,1.029709,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/3.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Transitioning to discuss population data.",
+        "StartTime":"240909_180249_058000",
+        "Duration":"000000_000005_839999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.3301455,-0.0241485,0.2072596,31.33934,330.0041,358.4308",
+                "ActionInvokeTimestamp":"240909_180249_058000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Now guys, let's actually move on to the other data. Let's see the total population of the city, besides the vegitation statistics",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Freshly load and visualize data of the Heatmap of total population(Clone)",
+        "StartTime":"240909_180249_163000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An empty light-colored wooden desk surface with holes for cable management. The desk is supported by cylindrical metal legs and is part of a larger desk setup, possibly in a workspace or office. The surface is clear, and there is an empty red chair partially visible at the bottom of the image.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5712038,0.0930915,0.274318,34.09772,327.1501,356.6186",
+                "ActionInvokeTimestamp":"240909_180249_163000",
+                "ActionReferentLocation":"0.04793492,-0.5566517,0.8708533,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Heatmap of total population(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/4.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Freshly load and visualize data of the Heatmap of total population(Clone)",
+        "StartTime":"240909_180254_597000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An empty light wooden desk with rounded edges and cable management grommets sits next to a partial red office chair, placed on a dark carpeted floor. No visual data or heatmap is present on the desk.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.05353633,0.02204812,0.08353994,45.56318,1.715942,357.2384",
+                "ActionInvokeTimestamp":"240909_180254_597000",
+                "ActionReferentLocation":"0.04793493,-0.5566517,0.8708533,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Heatmap of total population(Clone)",
+                "ActionReferentBody":"user3\/240909_180056\/Object\/4.glb",
+                "ActionContext":"user3\/240909_180056\/Context\/9.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Freshly load and visualize data of the Heatmap of total population(Clone)",
+        "StartTime":"240909_180256_089000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"The workspace has a light wood desk with a few cable grommets and a red office chair, but no computer or visible screen displaying a heatmap. The area is set up for use but currently lacks equipment necessary for visualizing data.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.582768,0.172322,0.2152541,35.2557,33.45479,352.5735",
+                "ActionInvokeTimestamp":"240909_180256_089000",
+                "ActionReferentLocation":"0.04793492,-0.5566517,0.8708533,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Heatmap of total population(Clone)",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/4.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180304_316000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.03010718,-0.009540942,0.1623549,68.33254,3.10108,330.7209",
+                "ActionInvokeTimestamp":"240909_180304_316000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180325_541000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.6325355,0.125629,0.4765466,34.39582,67.20291,358.1773",
+                "ActionInvokeTimestamp":"240909_180325_541000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180328_353000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An empty light wooden L-shaped desk with three circular cable grommets. A red, textured office chair is partially visible under the desk. The desk rests on metal legs and sits atop a gray carpeted floor. The background includes a white wall.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5702883,0.02252788,0.3156521,41.33389,318.5496,359.4477",
+                "ActionInvokeTimestamp":"240909_180328_353000",
+                "ActionReferentLocation":"0.2542543,-0.451598,0.6445937,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_3",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/5.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User3",
+        "Intent":"Suggesting to examine the population on the other side of the park.",
+        "StartTime":"240909_180330_218000",
+        "Duration":"000000_000006_559999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.004774492,0.1059946,0.1079002,34.74448,357.1829,358.6207",
+                "ActionInvokeTimestamp":"240909_180330_218000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Okay, this is quite interesting. Why don't we take a look to the total population on the other side of the park?",
+                "ActionContext":"user3\/240909_180056\/Context\/10.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180331_346000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A corner desk area with a light wood surface, supported by metal legs, including cable hole covers. The desk is mostly clear, with visible items such as a bottle of cleaning solution and router antennas on the adjacent desk. A red office chair is partially seen under the desk.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.3778634,0.05364081,0.1925545,36.03061,321.3634,358.3581",
+                "ActionInvokeTimestamp":"240909_180331_346000",
+                "ActionReferentLocation":"-0.03123275,-0.3897626,0.6549567,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_0",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/6.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180334_614000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An empty wooden desk surface with two cylindrical support poles attached to the wall. There is a red chair tucked under the desk and cable management holes on either side. No marker is visible on the desk.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.4979483,0.004874576,0.3181061,43.08368,332.8751,1.152556",
+                "ActionInvokeTimestamp":"240909_180334_614000",
+                "ActionReferentLocation":"0.2587526,-0.02265835,0.7694956,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/7.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180337_498000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A desk area with a light wooden surface, clear of clutter except for some items on the far left side, including a small open shelving unit and a green spray bottle. The desk has metal legs and circular grommet holes for cable management. There is a red office chair partially visible under the desk on the right side. A beige carpet covers the floor. The scene is indoors with an office-like setting.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.4213279,0.04431178,0.1884765,35.91275,317.141,358.2506",
+                "ActionInvokeTimestamp":"240909_180337_498000",
+                "ActionReferentLocation":"-0.03123274,0.06023741,0.6549567,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/8.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Observing population distribution between Westside and East.",
+        "StartTime":"240909_180339_983000",
+        "Duration":"000000_000003_490000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.6792096,0.1691533,0.4472866,38.16899,65.72411,359.1203",
+                "ActionInvokeTimestamp":"240909_180339_983000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"It seems the Westside of the park, has more population than the East. I wonder if it has to do with the vegitation, again.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User3",
+        "Intent":"Questioning the existence of a correlation.",
+        "StartTime":"240909_180348_711000",
+        "Duration":"000000_000004_240000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.05362662,0.07775421,0.161243,36.52069,3.21375,1.53361",
+                "ActionInvokeTimestamp":"240909_180348_711000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Do you think there is some sort of correlation between the population and the vegitation, over there?",
+                "ActionContext":"user3\/240909_180056\/Context\/11.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Advocating for reducing vegetation to increase construction space.",
+        "StartTime":"240909_180358_823000",
+        "Duration":"000000_000003_490000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.526702,0.08259101,0.4773841,38.92856,64.32401,5.296263",
+                "ActionInvokeTimestamp":"240909_180358_823000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"Maybe the lesser vegetation means more areas to build houses, thus, more population.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Noting consistent data trends on the West Side.",
+        "StartTime":"240909_180405_116000",
+        "Duration":"000000_000005_000000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.6358956,0.1365955,0.4752505,35.86069,66.7677,2.088977",
+                "ActionInvokeTimestamp":"240909_180405_116000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Also, what I find interesting is that there is a consistent total population across the West Side of the park.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180411_078000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light-colored wooden office desk with a smooth surface and a curved front edge is shown. The desk has cylindrical metal legs and grommet holes for cable management. Beneath the desk, there is a red office chair with a textured fabric, and part of a cardboard box and a pipe are visible. The workspace appears neat and uncluttered.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.4686641,0.05359294,0.2820969,40.95998,317.0768,356.7037",
+                "ActionInvokeTimestamp":"240909_180411_078000",
+                "ActionReferentLocation":"0.0423444,-0.4815627,0.7147647,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_7",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/9.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Agreeing to mark areas as indicated by others",
+        "StartTime":"240909_180415_775000",
+        "Duration":"000000_000005_540000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.3075998,0.1096326,0.2599294,38.2985,325.4506,356.7035",
+                "ActionInvokeTimestamp":"240909_180415_775000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"I find the perspectives of you two, intriguing. I'll leave amarkers on all the areas you guys pointed out so that we can come back to this later again",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180416_660000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.0290856,0.05624995,0.1938742,55.77008,17.32863,15.89989",
+                "ActionInvokeTimestamp":"240909_180416_660000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Transitioning to the next topic.",
+        "StartTime":"240909_180424_314000",
+        "Duration":"000000_000003_870000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.2697538,0.06287759,0.314816,42.9235,333.8412,0.4990626",
+                "ActionInvokeTimestamp":"240909_180424_314000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"Alright, cool. Let's move on to the next data. Now, the commuting population.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Freshly load and visualize data of the Heatmap of commuting population(Clone)",
+        "StartTime":"240909_180425_481000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An empty cubicle office workspace with a wooden desk, red office chair, and a partition with a shelf above. The desk has cable management grommets but no visible equipment or materials on it.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.5201187,0.1610147,0.1975382,36.87747,41.36067,0.6237472",
+                "ActionInvokeTimestamp":"240909_180425_481000",
+                "ActionReferentLocation":"0.04793492,-0.5566517,0.8708533,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Heatmap of commuting population(Clone)",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/5.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Freshly load and visualize data of the Heatmap of commuting population(Clone)",
+        "StartTime":"240909_180428_668000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A clean and empty corner section of a wooden office desk, with cable management grommets and metallic legs, indicating the area is ready for setting up a workspace or displaying data visualizations.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.255878,0.04733598,0.3055143,41.98602,337.5626,4.244136",
+                "ActionInvokeTimestamp":"240909_180428_668000",
+                "ActionReferentLocation":"0.04793492,-0.5566517,0.8708533,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Heatmap of commuting population(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/10.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Load Data",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Freshly load and visualize data of the Heatmap of commuting population(Clone)",
+        "StartTime":"240909_180430_132000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A partially visible office environment showing a wooden desk with a light finish and a floor covered in a grey carpet. A red upholstered chair with black legs is positioned beneath the desk. The user's interaction with loading and visualizing data of the Heatmap of commuting population(Clone) is not visible within this image.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.008087534,-0.02696033,0.1078527,58.00452,353.6861,357.5182",
+                "ActionInvokeTimestamp":"240909_180430_132000",
+                "ActionReferentLocation":"0.04793493,-0.5566517,0.8708533,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Heatmap of commuting population(Clone)",
+                "ActionReferentBody":"user3\/240909_180056\/Object\/5.glb",
+                "ActionContext":"user3\/240909_180056\/Context\/12.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Introducing data on commuting population.",
+        "StartTime":"240909_180435_174000",
+        "Duration":"000000_000002_830000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.549261,0.0462373,0.3930852,42.80813,306.9036,357.0691",
+                "ActionInvokeTimestamp":"240909_180435_174000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"Let's discuss on the data on commuting population in this area.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Describing the population distribution in Central Park and its surroundings.",
+        "StartTime":"240909_180441_584000",
+        "Duration":"000000_000004_750000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5577785,0.04909458,0.3860012,42.33426,308.3617,356.7392",
+                "ActionInvokeTimestamp":"240909_180441_584000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"I see that there are a lot of commuting populations around the central park and as well as West and East.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Expressing a point of agreement or understanding.",
+        "StartTime":"240909_180449_033000",
+        "Duration":"000000_000002_209999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5419327,0.03944589,0.4134186,44.44588,309.4928,354.1329",
+                "ActionInvokeTimestamp":"240909_180449_033000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"And especially consistently in the population numbers, also",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180455_067000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.01951328,-0.07084025,0.1098506,64.40749,340.0086,330.7133",
+                "ActionInvokeTimestamp":"240909_180455_067000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Discussing the possibility of reduced commute times in a specific area.",
+        "StartTime":"240909_180525_667000",
+        "Duration":"000000_000003_980000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.4560978,0.1077953,0.393975,34.78587,47.80189,358.7458",
+                "ActionInvokeTimestamp":"240909_180525_667000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" It is possible that, the commute time less around that area making them highly populated",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180526_173000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light-colored wooden desk with a curved edge features two metal support poles and three circular cable management holes. A red office chair with textured fabric is positioned in front of the desk. On the left side of the desk, there is a black plastic holder containing a few yellow markers or highlighters.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5560822,0.05098315,0.1541275,39.18976,321.1702,356.8512",
+                "ActionInvokeTimestamp":"240909_180526_173000",
+                "ActionReferentLocation":"0.1829188,0.06843603,0.6472278,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/11.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180528_474000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light wooden desk with two vertical support poles extending upwards. The desk has two circular cable management holes with black covers. A red fabric chair is partially visible in the lower part of the image, positioned in front of the desk. No visible markers or annotations present.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5580253,-0.005594932,0.3221209,36.17089,327.1846,357.154",
+                "ActionInvokeTimestamp":"240909_180528_474000",
+                "ActionReferentLocation":"0.1919119,0.02082431,0.8970271,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/12.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180530_691000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.2900552,0.4691403,-0.1572597,20.14836,344.2537,354.9966",
+                "ActionInvokeTimestamp":"240909_180530_691000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180531_741000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2148727,0.6049771,-0.2456949,24.25046,15.27473,358.0992",
+                "ActionInvokeTimestamp":"240909_180531_741000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Speculating on the wealth status of others.",
+        "StartTime":"240909_180532_493000",
+        "Duration":"000000_000002_189999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2106255,0.08825758,0.2284126,43.86672,24.06876,5.075608",
+                "ActionInvokeTimestamp":"240909_180532_493000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"And probably because it's so close to workplaces, the areas must be expensive and people are richer there",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180533_092000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.7261971,0.6488283,0.1393091,18.7009,27.40465,356.8851",
+                "ActionInvokeTimestamp":"240909_180533_092000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180534_042000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.891904,0.148546,0.6314152,25.62901,55.16491,358.6109",
+                "ActionInvokeTimestamp":"240909_180534_042000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180534_849000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2238755,0.1039158,0.1716197,42.2007,19.47848,2.10358",
+                "ActionInvokeTimestamp":"240909_180534_849000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180535_465000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.481349,0.05879277,0.1092604,35.21429,325.3311,1.499361",
+                "ActionInvokeTimestamp":"240909_180535_465000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Expressing interest in exploring a specific area.",
+        "StartTime":"240909_180542_247000",
+        "Duration":"000000_000004_900000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2448758,-0.01658908,0.4161502,44.53987,42.06308,358.571",
+                "ActionInvokeTimestamp":"240909_180542_247000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Oh, that's interesting. I'll take a look at the income level of that area. You're talking about the west of the park, right?",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180543_663000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.3879541,0.02307494,0.3619851,38.41512,45.63569,357.487",
+                "ActionInvokeTimestamp":"240909_180543_663000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User2",
+        "Intent":"Clarifying the location around the park.",
+        "StartTime":"240909_180550_833000",
+        "Duration":"000000_000002_589999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.0624904,0.1699038,0.08898476,29.20884,359.5586,357.8076",
+                "ActionInvokeTimestamp":"240909_180550_833000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" No, I'm speaking of, around the park, not the West.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180551_823000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A circular black marker is placed on a wooden surface, positioned near the base of a metal table leg. The marker is likely to serve as a point of reference for future tracking.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.1788706,0.1145441,0.5928016,49.85517,353.3294,355.0986",
+                "ActionInvokeTimestamp":"240909_180551_823000",
+                "ActionReferentLocation":"0.1227759,0.005536258,0.9620528,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/6.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Agreeing to examine the commuting population around the pipe.",
+        "StartTime":"240909_180557_270000",
+        "Duration":"000000_000006_299999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.436213,0.05439889,0.4675712,37.7201,46.98037,358.7851",
+                "ActionInvokeTimestamp":"240909_180557_270000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Oh, now I see it. Okay. Oh, you're talking about around the park. Okay. Yeah, I'll verify the commuting population of those regions",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180605_721000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light-colored wooden office desk with clean surface, accompanied by a red office chair partially visible on the right. Two silver poles, likely part of a cubicle structure, extend from the desk to the wall. Two cable grommets are embedded into the desk, one near each pole, with one cable passing through the left grommet. The background includes a light gray partition wall.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.4050854,-0.0002952144,0.5756913,42.35395,48.75492,2.563456",
+                "ActionInvokeTimestamp":"240909_180605_721000",
+                "ActionReferentLocation":"-0.02224877,-0.4511039,0.9047452,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_9",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/13.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User3",
+        "Intent":"Expressing uncertainty and hesitation.",
+        "StartTime":"240909_180607_920000",
+        "Duration":"000000_000004_750000",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.4977257,0.1006503,0.3632648,42.88598,309.3898,359.8665",
+                "ActionInvokeTimestamp":"240909_180607_920000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"I actually am hesistant to claim that they are wealthier, because I see that the income is actually pretty low in those regions",
+                "ActionContext":"user3\/240909_180056\/Context\/13.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180608_056000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A close-up of a corner office or study space featuring a wooden desk with a natural finish. The desk has a built-in cable management hole and is supported by metallic legs. A red fabric chair with black armrests is positioned at the desk. The wall is plain and light-colored, and a wooden door with a blue frame is partially visible in the background.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.5049948,0.07241055,0.2645417,33.65716,54.47078,359.4577",
+                "ActionInvokeTimestamp":"240909_180608_056000",
+                "ActionReferentLocation":"0.04010738,-0.4527389,0.6523283,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_0",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/14.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180610_073000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light wood-finished desk featuring a mock cubicle setup. The desk surface is bare save for three circular cable management outlets, two of which contain cables. The backdrop includes grey panels and light grey metallic support beams.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.6260447,0.0776381,0.3421659,32.27736,31.08006,358.9078",
+                "ActionInvokeTimestamp":"240909_180610_073000",
+                "ActionReferentLocation":"-0.1582395,-0.4439017,1.097286,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_18",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/15.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180615_367000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A wooden desk with a smooth surface is visible, featuring two circular grommets for cable management. The desk is supported by light grey metal legs. There is a red fabric office chair with black armrests positioned in front of the desk. The chair is slightly pulled out from the desk. In the background, part of a wall and a door are visible.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.4477905,0.02582246,0.3137556,38.22034,44.95306,359.0743",
+                "ActionInvokeTimestamp":"240909_180615_367000",
+                "ActionReferentLocation":"-0.02904663,-0.04508877,0.7173324,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/16.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User3",
+        "Intent":"Describing the location of a river.",
+        "StartTime":"240909_180615_379000",
+        "Duration":"000000_000002_209999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5306976,0.09049264,0.3547116,43.67979,307.5978,356.7432",
+                "ActionInvokeTimestamp":"240909_180615_379000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":" Maybe it's the river, people might use the ferries to commute from remote places",
+                "ActionContext":"user3\/240909_180056\/Context\/14.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Acknowledging the importance of the mentioned items.",
+        "StartTime":"240909_180622_718000",
+        "Duration":"000000_000002_209999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2709309,0.07573339,0.3050042,37.71153,40.83724,358.8165",
+                "ActionInvokeTimestamp":"240909_180622_718000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"Possible. Good point. I'll think from the point-of-view of Public transportation accessibility",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Discuss",
+        "Type":"NoneType",
+        "User":"User1",
+        "Intent":"Requesting time to consider the matter further.",
+        "StartTime":"240909_180627_877000",
+        "Duration":"000000_000002_319999",
+        "TriggerSource":"Audio",
+        "ReferentType":"Physical",
+        "ContextType":"Physical",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2608247,0.06471659,0.316764,39.24022,38.16982,357.9964",
+                "ActionInvokeTimestamp":"240909_180627_877000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":"Guys, let's actually take this offline, and then think more about it. I see many interesting opinions. Let's make sure to leave a marker for each location you were referring to.",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180630_514000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A workspace featuring a light-colored wooden desk. The desk has two circular cable management grommets installed near its back edge, with black covers. Through one of these grommets, a few wires are threaded. The desk is supported by metal legs and is adjacent to a partition wall or cubicle divider. A red upholstered office chair with black armrests is positioned at the desk. The corner of the workspace is visible, suggesting a cubicle setup. The overall appearance is clean and organized.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2554145,0.06216411,0.3175105,39.48826,36.81262,357.3875",
+                "ActionInvokeTimestamp":"240909_180630_514000",
+                "ActionReferentLocation":"0.04237441,-0.4364607,0.7148005,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_5",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/17.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180631_381000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A wooden desk with two metallic support columns and a red fabric office chair. The desk has two black circular grommet holes for cable management. There is nothing on the desk, making it appear ready for use.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.1741628,0.03067684,0.3285704,43.09207,39.4039,356.6452",
+                "ActionInvokeTimestamp":"240909_180631_381000",
+                "ActionReferentLocation":"0.1115217,0.04584104,0.6497883,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/18.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180632_182000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light wooden desk with rounded edges is positioned against a wall. The desk has two circular cable management holes near the back corners, with cables running through one of them. It features two metallic support poles extending from the desk surface to the wall. A red, cushioned office chair is pushed under the desk. The floor is carpeted, and part of a blue and white wall with a door or panel is visible on the right side.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.08023628,0.01161018,0.341009,43.70929,39.4257,356.0584",
+                "ActionInvokeTimestamp":"240909_180632_182000",
+                "ActionReferentLocation":"0.1829188,0.06843603,0.6472278,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/19.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180633_215000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"An empty light wood-grain desk surface with circular cable management holes and segments of a screen divider and a chair visible.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2274692,-0.01632844,0.461399,45.09087,25.35661,352.8278",
+                "ActionInvokeTimestamp":"240909_180633_215000",
+                "ActionReferentLocation":"-0.02450619,-0.002942026,0.8422844,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/20.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180639_484000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.4324207,0.04335594,-0.1384718,38.2446,33.49501,359.82",
+                "ActionInvokeTimestamp":"240909_180639_484000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180640_435000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.07031306,0.03462516,-0.256202,37.3406,9.050296,358.8952",
+                "ActionInvokeTimestamp":"240909_180640_435000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180641_068000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.5723126,-0.002804894,-0.256268,41.37849,9.548121,3.703153",
+                "ActionInvokeTimestamp":"240909_180641_068000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180641_075000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.4960477,0.007812329,0.6719381,43.4782,35.98001,1.611705",
+                "ActionInvokeTimestamp":"240909_180641_075000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180641_442000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A section of a light wooden desk with two round grommets, partially covered by the legs of a light-colored panel or cubicle partition. One of the grommet holes has a black cable running through it. The image focuses on the lower part of the desk area near the floor.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.5085014,0.007244557,0.677699,42.91264,36.44616,2.355596",
+                "ActionInvokeTimestamp":"240909_180641_442000",
+                "ActionReferentLocation":"-0.1582395,-0.4439017,1.097286,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_18",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/7.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180641_985000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.9981172,-0.08576781,0.244025,52.02645,335.3916,358.6021",
+                "ActionInvokeTimestamp":"240909_180641_985000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180643_269000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light wooden office desk with a smooth surface. The desk is supported by metal cylindrical legs, and includes two circular cable grommets for cable management. The desk is situated against a light-colored wall, and there is a red office chair partially visible in the foreground.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.7589411,0.02295996,0.6385998,41.59328,298.6751,0.01290462",
+                "ActionInvokeTimestamp":"240909_180643_269000",
+                "ActionReferentLocation":"0.1941517,-0.00380373,0.9594669,0,0,4.689919E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/21.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180644_327000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A light wooden desk with a smooth surface is visible. The desk appears to be placed against a panel or wall. The corner of a short partition and a metal cylindrical object on top of the desk can be seen. There are no markers or distinct points of interest visible on the desk surface.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.6414234,-0.02932464,0.8169261,43.56783,64.0085,357.7838",
+                "ActionInvokeTimestamp":"240909_180644_327000",
+                "ActionReferentLocation":"-0.1604832,0.02473968,1.034841,0,0,4.689919E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/8.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180645_766000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A wooden desk with a light finish, featuring rounded corners and a back panel. Two black desk grommets are visible on the far side of the desk, near the wall. Below the desk, a red office chair with a mesh backrest is partially visible. The workspace appears to be tidy and uncluttered.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.1801854,0.1143846,0.3386913,51.46109,358.7222,357.5246",
+                "ActionInvokeTimestamp":"240909_180645_766000",
+                "ActionReferentLocation":"0.1829188,0.06843603,0.6472278,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user3\/240909_180056\/Object\/6.glb",
+                "ActionContext":"user3\/240909_180056\/Context\/15.glb"
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180646_437000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.4959833,0.141415,-0.2120988,25.97202,336.3844,358.1534",
+                "ActionInvokeTimestamp":"240909_180646_437000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180647_179000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.4481174,0.0593565,0.1672129,43.90573,42.85497,355.0829",
+                "ActionInvokeTimestamp":"240909_180647_179000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Navigate",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Walk around the scene",
+        "StartTime":"240909_180647_204000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"NoneType",
+        "ContextType":"NoneType",
+        "ActionContextDescription":null,
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.05489754,0.08370086,-0.3279134,30.01178,356.9312,357.929",
+                "ActionInvokeTimestamp":"240909_180647_204000",
+                "ActionReferentLocation":null,
+                "ActionReferentName":null,
+                "ActionReferentBody":null,
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User1",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180648_254000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A clean, L-shaped wooden desk setup with a red cushioned chair is present. The desk is supported by metal legs and has three circular cable management grommets. The scene is indoors, likely taken in an office environment or a study room. There are no markers or items on the desk surface.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2535804,0.07178996,-0.002859161,34.2661,15.35709,0.3110669",
+                "ActionInvokeTimestamp":"240909_180648_254000",
+                "ActionReferentLocation":"-0.02904663,-0.04508877,0.7173324,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user1\/240909_180106\/Object\/22.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Visualize Detail",
+        "Type":"Discrete",
+        "User":"User2",
+        "Intent":"Loading detailed information of an interest point of the visualization",
+        "StartTime":"240909_180650_612000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A wooden desk with a light-colored surface and a red cushioned chair. The desk has a couple of built-in grommets near the back, one with a cable running through it. Two cylindrical metal supports are visible towards the back of the desk. The floor is carpeted, and there appears to be a partition behind the desk. The overall setting suggests a workstation or office cubicle environment.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"-0.2707059,-0.09358221,0.3562083,39.43871,41.04939,351.9287",
+                "ActionInvokeTimestamp":"240909_180650_612000",
+                "ActionReferentLocation":"0.04237441,-0.4364607,0.7148005,0.04680108,2.068748,359.9635",
+                "ActionReferentName":"Cube_5",
+                "ActionReferentBody":"user2\/240909_180053\/Object\/9.glb",
+                "ActionContext":null
+            }
+        ]
+    },
+    {
+        "Name":"Add Marker",
+        "Type":"Discrete",
+        "User":"User3",
+        "Intent":"Leaving a permanenet marker on top of an interest point of the visualization, to track back in the future",
+        "StartTime":"240909_180651_152000",
+        "Duration":"000000_000000_500000",
+        "TriggerSource":"HandheldARInputDevice",
+        "ReferentType":"Virtual",
+        "ContextType":"Physical",
+        "ActionContextDescription":"A wooden desk with a light finish, featuring circular cable management holes at intervals along the back edge, and supported by cylindrical steel legs. A red upholstered chair partially tucked under the desk is visible in the foreground.",
+        "Data":[
+            {
+                "ActionInvokeLocation":"0.6346028,0.008330129,0.6020415,41.21547,303.3814,358.5772",
+                "ActionInvokeTimestamp":"240909_180651_152000",
+                "ActionReferentLocation":"0.1919119,0.02082431,0.8970271,0,0,5.211021E-10",
+                "ActionReferentName":"MapMarker(Clone)",
+                "ActionReferentBody":"user3\/240909_180056\/Object\/7.glb",
+                "ActionContext":"user3\/240909_180056\/Context\/16.glb"
+            }
+        ]
+    }
+]

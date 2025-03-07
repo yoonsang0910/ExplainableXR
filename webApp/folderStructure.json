@@ -1,0 +1,32 @@
+{
+  "RealWorld": [
+    {
+      "name": "ipad_user1.glb",
+      "type": "file"
+    },
+    {
+      "name": "ipad_user2.glb",
+      "type": "file"
+    },
+    {
+      "name": "ipad_user3.glb",
+      "type": "file"
+    },
+    {
+      "name": "room132.glb",
+      "type": "file"
+    }
+  ],
+  "VirtualWorld": [
+    {
+      "name": "IgnoreMe",
+      "type": "folder",
+      "children": [
+        {
+          "name": "nope.obj",
+          "type": "file"
+        }
+      ]
+    }
+  ]
+}
