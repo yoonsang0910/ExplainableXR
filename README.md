@@ -2,7 +2,7 @@
 
 > *Yoonsang Kim, Zainab Aamir, Mithilesh Singh, Saeed Boorboor, Klaus Mueller, Arie E. Kaufman.*<br>
 > *IEEE Transactions on Visualization and Computer Graphics (IEEE VR), 2025*<br>
-> [[Paper (preprint)](https://arxiv.org/pdf/2501.13778)], [[Video](https://youtu.be/NLh4FkZr7uI)]
+> [[Paper](https://doi.org/10.1109/TVCG.2025.3549537)], [[Video](https://youtu.be/NLh4FkZr7uI)]
 
 _Explainable XR (EXR)_ is an end-to-end framework that captures, analyzes, and visualizes the multimodal behaviors of users in XR environments -- VR, AR, MR. 
 This repository contains the **(1)** Unity-based capturing module that follows the UAD (User Action Descriptor) format along with example XR apps, **(2)** data processing module written in Python, and our **(3)** web-based analytics interface. **Please adapt the provided UAD structure and data types to match your purpose.**
@@ -24,10 +24,16 @@ We present _Explainable XR_, an end-to-end framework for analyzing user behavior
 
 ## **Citation**
 ```
-@article {kim2025explainablexr,
-    title={Explainable XR: Understanding User Behaviors of XR Environments using LLM-assisted Analytics Framework},
-    author={Yoonsang Kim, Zainab Aamir, Mithilesh Singh, Saeed Boorboor, Klaus Mueller, and Arie E. Kaufman},
-    year={2025},
-    journal={arXiv preprint arXiv:2501.13778}
-}
+@article{kim2025explainablexr,
+  author={Kim, Yoonsang and Aamir, Zainab and Singh, Mithilesh and Boorboor, Saeed and Mueller, Klaus and Kaufman, Arie E.},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Explainable XR: Understanding User Behaviors of XR Environments Using LLM-assisted Analytics Framework}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-11},
+  doi={10.1109/TVCG.2025.3549537}}
 ```
+
+
+
