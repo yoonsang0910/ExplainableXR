@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **The end-to-end framework of Explainable XR will be released officially: Mid April, 2025.**<br>
+> The current code only includes a part of our front-end.
+
 # **Explainable XR: Understanding User Behaviors of XR Environments using LLM-assisted Analytics Framework**
 
 > *Yoonsang Kim, Zainab Aamir, Mithilesh Singh, Saeed Boorboor, Klaus Mueller, Arie E. Kaufman.*<br>
