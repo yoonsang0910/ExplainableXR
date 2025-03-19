@@ -33,8 +33,8 @@ We present _Explainable XR_, an end-to-end framework for analyzing user behavior
   journal={IEEE Transactions on Visualization and Computer Graphics}, 
   title={Explainable XR: Understanding User Behaviors of XR Environments Using LLM-assisted Analytics Framework}, 
   year={2025},
-  volume={},
-  number={},
+  volume={31},
+  number={5},
   pages={1-11},
   doi={10.1109/TVCG.2025.3549537}}
 ```
