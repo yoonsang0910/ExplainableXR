@@ -1,6 +1,8 @@
 > [!IMPORTANT]
-> **The end-to-end framework of Explainable XR will be released officially: Mid April, 2025.**<br>
-> The current code only includes a part of our front-end.
+> **The end-to-end framework of Explainable XR will be released officially: <code>Early May, 2025 (Delayed)</code>**<br>
+We deeply apologize for the delay 🙏🙏<br>
+> The current code only includes a part of our front-end; Missing the Action Recorder and Processor
+
 
 # **Explainable XR: Understanding User Behaviors of XR Environments using LLM-assisted Analytics Framework**
 
