@@ -1,0 +1,41 @@
+{
+    "name": "com.explainable.xr",
+    "version": "1.0.0",
+    "displayName": "Explainable XR",
+    "description": "Explainable XR: Understanding User Behaviors of XR Environments using LLM-assisted Analytics Framework. Refer to our paper, <b><i>Explainable XR</i></b> (IEEE TVCG by Yoonsang Kim et al.), for details.",
+    "unity": "2022.3",
+    "dependencies": {
+        "com.meta.xr.sdk.core": "74.0.2",
+        "com.meta.xr.sdk.interaction": "74.0.2",
+        "com.meta.xr.sdk.interaction.ovr": "74.0.3",
+        "com.meta.xr.sdk.platform": "74.0.0",
+        "com.unity.cloud.gltfast": "6.12.1",
+        "com.unity.mobile.android-logcat": "1.4.5",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.arfoundation": "5.1.6",
+        "com.unity.xr.arkit": "5.1.6",
+        "com.unity.xr.core-utils": "2.3.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.11",
+        "com.unity.xr.management": "4.5.1",
+        "com.unity.xr.oculus": "4.2.0"
+    },
+    "samples": [
+        {
+            "displayName": "PC - Unity Editor",
+            "description": "Testbed scene demonstrating log actions in <b>Unity Editor</b> via Explainable XR. Run this scene and follow how we generate the output json file. Recommended to first-timers.",
+            "path": "Samples~/PC"
+        },
+        {
+            "displayName": "VR Wearable",
+            "description": "Sample scene to demonstrate how to log actions in <b>VR</b> (e.g., Quest 3) via Explainable XR.",
+            "path": "Samples~/VR Wearable"
+        },
+        {
+            "displayName": "AR Hand-held",
+            "description": "Sample scene to demonstrate how to log actions in <b>AR</b> (e.g., iPad Pro) via Explainable XR.",
+            "path": "Samples~/AR Hand-held"
+        }
+    ]
+}
