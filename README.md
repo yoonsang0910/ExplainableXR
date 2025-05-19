@@ -98,8 +98,8 @@ _(Documentation & Code Cleanup Coming soon)_
 \> Make sure to select `Keep using OVR Hand` as EXR uses OVR for prefabs and scripts, on Meta Quest devices.<br><br>
 
 ## Contact
-Please utilize the repo's `Issues` tab before reaching out to us via email. It is easier for us (and for the community) to track unexpected behaviors and maintain them.
+Please utilize the repo's `Issues` tab. It is easier for us (and for the community) to track unexpected behaviors and maintain them. If you have any personal inquiries, please find the email addresses below, and reach the developer(s) of the component.
 
-- Yoonsang Kim - yoonsakim@cs.stonybrook.edu
-- Zainab Aamir - zaamir@cs.stonybrook.edu
-- Mithilesh Singh - mkssingh@cs.stonybrook.edu
+- Yoonsang Kim - yoonsakim@cs.stonybrook.edu (Action Recorder, Action Processor)
+- Zainab Aamir - zaamir@cs.stonybrook.edu (Visual Analytics Interface)
+- Mithilesh Singh - mkssingh@cs.stonybrook.edu (Visual Analytics Interface)
